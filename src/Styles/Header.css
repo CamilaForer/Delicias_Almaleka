@@ -1,0 +1,12 @@
+.App-header {
+  background-color: #F0A0AC;
+  min-height: 12vh;
+  color: white;
+}
+.menu{
+  font-size: 40px;
+}
+.logo{
+  display: grid;
+  place-content: center;
+}

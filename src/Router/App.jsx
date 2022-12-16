@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import '../Styles/App.css';
 import Home from '../Views/Home';
 import AboutUs from '../Views/AboutUs';
+import Products from '../Views/Products';
 import Cart from '../Views/Cart';
 
 function App() {
@@ -16,6 +17,4 @@ function App() {
   </BrowserRouter>
   );
 }
-
-
 export default App;
