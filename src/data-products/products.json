@@ -1,0 +1,11 @@
+{
+  "products":[
+    {
+      "id":"C1",
+      "name":"Cupcake de chocolate",
+      "img":"",
+      "price":5000,
+      "type":"Cupcake"
+    }
+  ]
+  }

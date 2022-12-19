@@ -1,0 +1,9 @@
+
+.product-card-image{
+  background-color: gray;
+  width: 60%;
+  height: 200px;
+}
+.product-card-image img{
+  width: 50%;
+}
