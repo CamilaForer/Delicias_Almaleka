@@ -3,7 +3,28 @@
     {
       "id":"C1",
       "name":"Cupcake de chocolate",
-      "img":"",
+      "img":"/img/cupcakeBasico",
+      "price":5000,
+      "type":"Cupcake"
+    },
+    {
+      "id":"C2",
+      "name":"Cupcake de vainilla",
+      "img":"/img/cupcakeBasico",
+      "price":5000,
+      "type":"Cupcake"
+    },
+    {
+      "id":"C3",
+      "name":"Cupcake choco vainilla",
+      "img":"/img/cupcakeBasico",
+      "price":5000,
+      "type":"Cupcake"
+    },
+    {
+      "id":"C4",
+      "name":"Cupcake de arequipe",
+      "img":"/img/cupcakeBasico",
       "price":5000,
       "type":"Cupcake"
     }
