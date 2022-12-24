@@ -10,9 +10,15 @@
 }
 .icons{
   font-size: 40px;
+  color: white;
 }
 .logo{
   display: flex;
   width: 120px;
   align-self: center;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

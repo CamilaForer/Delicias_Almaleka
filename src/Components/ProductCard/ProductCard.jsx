@@ -6,16 +6,17 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const products = productsJson.products;
-console.log(products)
-export default function ProductCard({img, productName, price}) {
+
+export default function ProductCard() {
   return (
     <Card style={{ width: '15rem', display: 'flex', marginBottom: '35px' }}>
       <Card.Img variant="top" src={Cupcake} />
       <Card.Body>
-        <Card.Title>Cupcake</Card.Title>
+        <Card.Title>{products.name}</Card.Title>
+        console.log(products)
         <Button variant="primary">Agregar al carrito</Button>
       </Card.Body>
     </Card>
 
-  )
+  ) 
 }

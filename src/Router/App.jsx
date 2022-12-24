@@ -8,14 +8,16 @@ import Cart from '../Views/Cart';
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="AboutUs/" element={<AboutUs/>} />
-      <Route path="Products/" element={<Products/>} />
-      <Route path="/Cart/" element={<Cart/>} />
-    </Routes>
-  </BrowserRouter>
-  );
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="AboutUs/" element={<AboutUs />} />
+          <Route path="Products/" element={<Products />} />
+          <Route path="/Cart/" element={<Cart />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+      );
 }
-export default App;
+    export default App;

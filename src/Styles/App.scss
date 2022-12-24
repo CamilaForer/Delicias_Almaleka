@@ -1,15 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;900&family=Reggae+One&display=swap'); 
-*{
+body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  position: relative;
 }
 .page_tittle{
   color: #8D3045 ;
-  font-size: 30px;
+  font-size: clamp(1.3rem,4vw,2.5rem);
   font-family: 'Lexend', sans-serif;
   font-weight: bold;
   text-align: center;
-  margin-top: .5rem;
+  margin-top: .7rem;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 50px;
+  font-size:clamp(1rem,3vw,2rem);
+  font-family: 'Lexend', sans-serif;
+  text-align: center;
+}
+.logoAbout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.logoAbout img{
+  width: 100%;
 }
 

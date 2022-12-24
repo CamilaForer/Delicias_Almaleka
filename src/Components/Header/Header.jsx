@@ -2,13 +2,18 @@ import React from 'react'
 import Logo from '../../img/Delicias Almaleka.png'
 import './Header.scss'
 import {GiHamburgerMenu,GiShoppingCart} from "react-icons/gi";
+import { Link } from "react-router-dom";
+import Menu from '../Menu';
 
 export default function Header() {
+  
   return (
     <header className="App-header">
-        <GiHamburgerMenu className='icons'/>
+        <Menu/>
         <img  className='logo' src={Logo}/>
-        <GiShoppingCart className='icons'/>
+        <Link to='/Cart'>
+          <GiShoppingCart className='icons'/>
+        </Link>
       </header>
   )
 }
