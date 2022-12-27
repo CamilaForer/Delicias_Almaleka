@@ -1,9 +1,9 @@
 import React from "react";
 import './Carousel.scss'
 import Carousel from "react-bootstrap/Carousel";
-import carousel1 from "../../img/ArrozConLeche.jpg";
-import carousel2 from "../../img/cheesecake1.jpg";
-import carousel3 from "../../img/cheesecake2.jpg";
+import carousel1 from "../../../public/img/ArrozConLeche.jpg";
+import carousel2 from "../../../public/img/cheesecake1.jpg";
+import carousel3 from "../../../public/img/cheesecake2.jpg";
 
 export default function Carouseel() {
   return (

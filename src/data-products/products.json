@@ -1,32 +1,73 @@
 {
   "products":[
     {
-      "id":"C1",
-      "name":"Cupcake de chocolate",
+      "id":"Cup1",
+      "name":"Cupcake base chocolate",
       "img":"/img/cupcakeBasico",
       "price":5000,
       "type":"Cupcake"
     },
     {
-      "id":"C2",
-      "name":"Cupcake de vainilla",
-      "img":"/img/cupcakeBasico",
+      "id":"Cup2",
+      "name":"Cupcake base vainilla",
+      "img":"",
       "price":5000,
       "type":"Cupcake"
     },
     {
-      "id":"C3",
-      "name":"Cupcake choco vainilla",
-      "img":"/img/cupcakeBasico",
+      "id":"Cup3",
+      "name":"Cupcake base choco vainilla",
+      "img":"",
       "price":5000,
       "type":"Cupcake"
     },
     {
-      "id":"C4",
-      "name":"Cupcake de arequipe",
-      "img":"/img/cupcakeBasico",
+      "id":"Cup4",
+      "name":"Cupcake base arequipe",
+      "img":"",
       "price":5000,
       "type":"Cupcake"
+    },
+    {
+      "id":"PersonalCheesecake",
+      "name":"Cheesecake individual",
+      "img":"",
+      "price":5500,
+      "type":"Cheseecake"
+    },
+    {
+      "id":"FamiliarCheesecake",
+      "name":"Cheesecake para compartir",
+      "img":"",
+      "price":45000,
+      "type":"Cheseecake"
+    },
+    {
+      "id":"Pasabocasx12",
+      "name":"Cheesecake de frutos rojos",
+      "img":"",
+      "price":6500,
+      "type":"Pasabocas"
+    },
+    {
+      "id":"Pasabocasx24",
+      "name":"Cheesecake de oreo",
+      "img":"",
+      "price":12000,
+      "type":"Pasabocas"
+    }, {
+      "id":"PersonalThreeMilkCake",
+      "name":"Postre tres leches individual",
+      "img":"",
+      "price":5000,
+      "type":"Cheseecake"
+    },
+    {
+      "id":"FamiliarThreeMilkCake",
+      "name":"Postre tres leches para compartir",
+      "img":"",
+      "price":38000,
+      "type":"Cheseecake"
     }
   ]
   }

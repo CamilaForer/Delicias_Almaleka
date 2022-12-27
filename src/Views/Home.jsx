@@ -10,7 +10,7 @@ export default function Home() {
       <Carouseel/>
       <p className='page_tittle'>Productos destacados</p>
       <ProductCard/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

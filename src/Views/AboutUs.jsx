@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/App.scss'
-import Logo from '../img/Delicias Almaleka.png'
+import Logo from '../../public/img/Delicias Almaleka.png'
 import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
 
