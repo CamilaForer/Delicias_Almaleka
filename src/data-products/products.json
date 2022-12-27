@@ -43,31 +43,81 @@
       "type":"Cheseecake"
     },
     {
-      "id":"Pasabocasx12",
-      "name":"Cheesecake de frutos rojos",
+      "id":"H1",
+      "name":"Pasabocas x12 unidades",
       "img":"",
       "price":6500,
-      "type":"Pasabocas"
+      "type":"Hojaldres"
     },
     {
-      "id":"Pasabocasx24",
-      "name":"Cheesecake de oreo",
+      "id":"H2",
+      "name":"Pasabocas x24 unidades",
       "img":"",
       "price":12000,
-      "type":"Pasabocas"
-    }, {
-      "id":"PersonalThreeMilkCake",
+      "type":"Hojaldres"
+    }, 
+    {
+      "id":"T1",
+      "name":"Torta de zanahoria",
+      "img":"",
+      "price":15000,
+      "type":"Torta"
+    },
+    {
+      "id":"T2",
+      "name":"Torta de banano",
+      "img":"",
+      "price":15000,
+      "type":"Torta"
+    }, 
+    {
+      "id":"P1",
       "name":"Postre tres leches individual",
       "img":"",
       "price":5000,
-      "type":"Cheseecake"
+      "type":"Postre"
     },
     {
-      "id":"FamiliarThreeMilkCake",
+      "id":"P2",
       "name":"Postre tres leches para compartir",
       "img":"",
       "price":38000,
-      "type":"Cheseecake"
+      "type":"Postre"
+    },
+    {
+      "id":"P3",
+      "name":"Gelatina mosaico",
+      "img":"",
+      "price":5000,
+      "type":"Postre"
+    },
+    {
+      "id":"P4",
+      "name":"Merengon",
+      "img":"",
+      "price":6500,
+      "type":"Postre"
+    }, 
+    {
+      "id":"P5",
+      "name":"Arroz con leche",
+      "img":"",
+      "price":5000,
+      "type":"Postre"
+    },
+    {
+      "id":"P6",
+      "name":"Tiramisu",
+      "img":"",
+      "price":6500,
+      "type":"Postre"
+    }, 
+    {
+      "id":"P7",
+      "name":"Natilla tradicional",
+      "img":"",
+      "price":5000,
+      "type":"Postre"
     }
   ]
   }
