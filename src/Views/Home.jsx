@@ -15,7 +15,9 @@ export default function Home() {
       <Carouseel />
       <p className="page_tittle">Productos destacados</p>
       <div className="container-fluid">
+        {/*Contenedor de las tarjetas */}
         <div className="row  justify-content-center row-cols-auto ">
+          {/*Creador del array con tarjetas por cada uno de los productos del JSON */}
           {products.map((product, index) => (
             <div key={index} className="text-center">
               <ProductCard

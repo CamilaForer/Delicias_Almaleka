@@ -6,3 +6,9 @@
 .product-card-image img{
   width: 50%;
 }
+.card{
+  --bs-card-border-width: 0px;
+}
+.card-img-overlay{
+  cursor: pointer;
+}
