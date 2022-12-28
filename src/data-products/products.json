@@ -3,63 +3,63 @@
     {
       "id":"Cup1",
       "name":"Cupcake base chocolate",
-      "img":"",
+      "img":"../public/img/cupcakeHalloween.jpg",
       "price":5000,
       "type":"Cupcake"
     },
     {
       "id":"Cup2",
       "name":"Cupcake base vainilla",
-      "img":"",
+      "img":"../public/img/cupcakePersonalizados.jpg",
       "price":5000,
       "type":"Cupcake"
     },
     {
       "id":"Cup3",
       "name":"Cupcake base choco vainilla",
-      "img":"",
+      "img":"../public/img/cupcakeBasico.jpg",
       "price":5000,
       "type":"Cupcake"
     },
     {
       "id":"Cup4",
       "name":"Cupcake base arequipe",
-      "img":"",
+      "img":"../public/img/cupcakeSanValentin.jpg",
       "price":5000,
       "type":"Cupcake"
     },
     {
-      "id":"PersonalCheesecake",
+      "id":"C1",
       "name":"Cheesecake individual",
-      "img":"",
+      "img":"../public/img/cheesecake2.jpg",
       "price":5500,
       "type":"Cheseecake"
     },
     {
-      "id":"FamiliarCheesecake",
+      "id":"C2",
       "name":"Cheesecake para compartir",
-      "img":"",
+      "img":"../public/img/cheesecake1.jpg",
       "price":45000,
       "type":"Cheseecake"
     },
     {
       "id":"H1",
-      "name":"Pasabocas x12 unidades",
-      "img":"",
+      "name":"Pasabocas x 12 unidades",
+      "img":"../public/img/Pasabocas.jpg",
       "price":6500,
       "type":"Hojaldres"
     },
     {
       "id":"H2",
-      "name":"Pasabocas x24 unidades",
-      "img":"",
+      "name":"Pasabocas x 24 unidades",
+      "img":"../public/img/Pasabocas.jpg",
       "price":12000,
       "type":"Hojaldres"
     }, 
     {
       "id":"T1",
       "name":"Torta de zanahoria",
-      "img":"",
+      "img":"../public/img/Banner2.png",
       "price":15000,
       "type":"Torta"
     },

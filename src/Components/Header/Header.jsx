@@ -14,6 +14,7 @@ export default function Header() {
         <Link to='/Cart'>
           <GiShoppingCart className='icons'/>
         </Link>
+       
       </header>
   )
 }
