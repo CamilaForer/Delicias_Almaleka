@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import './Header.scss';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import React, { useState } from "react";
+import "./Header.scss";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 import { Link } from "react-router-dom";
-import {GiHamburgerMenu} from "react-icons/gi";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Menu() {
   const values = [true];
@@ -17,28 +17,34 @@ export default function Menu() {
   return (
     <>
       {values.map((v, idx) => (
-        <Button key={idx} className="me-2 mb-2" onClick={() => handleShow(v)}>
-         <GiHamburgerMenu className='icons'/>
-          {typeof v === 'string' && `below ${v.split('-')[0]}`}
+        <Button
+          key={idx}
+          className="me-2 mb-2 menu"
+          onClick={() => handleShow(v)}
+        >
+          <GiHamburgerMenu className="icons" />
+          {typeof v === "string" && `below ${v.split("-")[0]}`}
         </Button>
       ))}
       <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
-        <Modal.Header closeButton>
-          <Modal.Title>Menú</Modal.Title>
-        </Modal.Header>
+        <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
-          <Link to='/'>
-            Inicio
-          </Link> <br/>
-          <Link to='/AboutUs'>
-            Acerca de nosotros
-          </Link><br/>
-          <Link to='/Products'>
-            Productos
-          </Link>
+          <ul>
+            <li>
+              <Link to="/">Inicio</Link>
+            </li>
+            <hr />
+            <li>
+              <Link to="/AboutUs">Acerca de nosotros</Link>
+            </li>
+            <hr />
+            <li>
+              <Link to="/Products">Productos</Link>
+            </li>
+            <hr />
+          </ul>
         </Modal.Body>
       </Modal>
     </>
   );
 }
-

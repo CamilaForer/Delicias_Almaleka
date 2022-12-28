@@ -3,7 +3,7 @@
     {
       "id":"Cup1",
       "name":"Cupcake base chocolate",
-      "img":"/img/cupcakeBasico",
+      "img":"",
       "price":5000,
       "type":"Cupcake"
     },
