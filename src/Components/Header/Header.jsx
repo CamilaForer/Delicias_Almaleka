@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../../public/img/Delicias Almaleka.png'
+import Logo from '../../../public/img/Delicias Almaleka.webp'
 import './Header.scss'
 import {GiShoppingCart} from "react-icons/gi";
 import { Link } from "react-router-dom";

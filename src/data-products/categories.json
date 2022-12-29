@@ -2,23 +2,23 @@
   "categories":[
     {
       "type":"Cheesecake",
-      "img":"/img/Cheesecake1.png"
+      "img":"/img/Cheesecake1.webp"
     },
     {
       "type":"Cupcake",
-      "img":"/img/Cupcake.png"
+      "img":"/img/Cupcake.webp"
     },
     {
       "type":"Tortas",
-      "img":"/img/TortaZanahoria.png"
+      "img":"/img/TortaZanahoria.webp"
     },
     {
       "type":"Hojaldres",
-      "img":"/img/Pasabocas.png"
+      "img":"/img/Pasabocas.webp"
     },
     {
       "type":"Postres",
-      "img":"/img/Tiramisu.png"
+      "img":"/img/Tiramisu.webp"
     }
   ]
 }

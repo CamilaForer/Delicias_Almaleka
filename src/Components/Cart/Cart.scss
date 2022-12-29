@@ -1,0 +1,31 @@
+/*OrderTable*/
+.table{
+  vertical-align: middle;
+}
+.table-danger{
+  --bs-table-bg:#8D3045;
+  --bs-table-color:white;
+}
+.total th{
+  --bs-table-bg:#8D3045;
+  --bs-table-striped-color: white !important;
+}
+img, svg {
+  color: #8D3045;
+}
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.quantity{
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+.minusButton,
+.plusButton {
+  background: none;
+  border: none;
+  justify-content: center;
+}

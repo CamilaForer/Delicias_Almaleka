@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header/Header'
 import { useCart } from "../Components/context/CartContext.jsx";
-import OrderTable from '../Components/OrderTable';
+import OrderTable from '../Components/Cart/OrderTable';
 
 export default function Cart() {
   const context = useCart();
