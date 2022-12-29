@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Header/Header.scss'
-import {GrInstagram } from 'react-icons/Gr'
+import { GrInstagram } from 'react-icons/Gr'
 
 
 export default function Footer() {

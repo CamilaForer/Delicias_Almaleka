@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../../../public/img/Delicias Almaleka.png'
 import './Header.scss'
-import {GiHamburgerMenu,GiShoppingCart} from "react-icons/gi";
+import {GiShoppingCart} from "react-icons/gi";
 import { Link } from "react-router-dom";
 import Menu from './Menu';
 
