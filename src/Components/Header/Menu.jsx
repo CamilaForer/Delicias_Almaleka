@@ -35,11 +35,15 @@ export default function Menu() {
             </li>
             <hr />
             <li>
-              <Link to="/AboutUs">Acerca de nosotros</Link>
+              <Link to="/aboutUs">Acerca de nosotros</Link>
             </li>
             <hr />
             <li>
-              <Link to="/Products">Productos</Link>
+              <Link to="/products">Productos</Link>
+            </li>
+            <hr />
+            <li>
+              <Link to="/contact">Contacto</Link>
             </li>
             <hr />
           </ul>

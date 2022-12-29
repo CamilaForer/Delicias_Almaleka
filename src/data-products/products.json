@@ -33,14 +33,14 @@
       "name":"Cheesecake individual",
       "img":"../public/img/CheesecakeIndividual.png",
       "price":5500,
-      "type":"Cheseecake"
+      "type":"Cheesecake"
     },
     {
       "id":"C2",
       "name":"Cheesecake para compartir",
       "img":"../public/img/Cheesecake.png",
       "price":45000,
-      "type":"Cheseecake"
+      "type":"Cheesecake"
     },
     {
       "id":"H1",
@@ -61,63 +61,63 @@
       "name":"Torta de zanahoria",
       "img":"../public/img/TortaZanahoria.png",
       "price":15000,
-      "type":"Torta"
+      "type":"Tortas"
     },
     {
       "id":"T2",
       "name":"Torta de banano",
       "img":"../public/img/TortaBanano.png",
       "price":15000,
-      "type":"Torta"
+      "type":"Tortas"
     }, 
     {
       "id":"P1",
       "name":"Postre tres leches individual",
       "img":"../public/img/TresLeches.png",
       "price":5000,
-      "type":"Postre"
+      "type":"Postres"
     },
     {
       "id":"P2",
       "name":"Postre tres leches para compartir",
       "img":"../public/img/TresLeches.png",
       "price":38000,
-      "type":"Postre"
+      "type":"Postres"
     },
     {
       "id":"P3",
       "name":"Gelatina mosaico",
       "img":"../public/img/GelatinaMosaico.png",
       "price":5000,
-      "type":"Postre"
+      "type":"Postres"
     },
     {
       "id":"P4",
       "name":"Merengon",
       "img":"../public/img/Merengon.png",
       "price":6500,
-      "type":"Postre"
+      "type":"Postres"
     }, 
     {
       "id":"P5",
       "name":"Arroz con leche",
       "img":"../public/img/ArrozConLeche.png",
       "price":5000,
-      "type":"Postre"
+      "type":"Postres"
     },
     {
       "id":"P6",
       "name":"Tiramisu",
       "img":"../public/img/Tiramisu.png",
       "price":6500,
-      "type":"Postre"
+      "type":"Postres"
     }, 
     {
       "id":"P7",
       "name":"Natilla tradicional",
       "img":"../public/img/Natilla.png",
       "price":5000,
-      "type":"Postre"
+      "type":"Postres"
     }
   ]
   }
