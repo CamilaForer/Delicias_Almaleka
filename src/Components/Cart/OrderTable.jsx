@@ -1,20 +1,13 @@
 import Table from "react-bootstrap/Table";
-import { HiCurrencyRupee, HiTrash } from "react-icons/hi";
+import { HiTrash } from "react-icons/hi";
 import "./Cart.scss";
 import Counter from "./Counter";
-import { useState } from "react";
+import { useCart } from "../context/CartContext";
 
 function OrderTable({ content }) {
-  const calcTotal = (items) => {
-    const total = items.reduce((acc, curr) => {
-      console.log(acc, curr);
-    });
-  };
-  const [order, setOrder] = useState({
-    items: content,
-    total: calcTotal(content),
-  });
-
+  const context = useCart();
+  //Trae el total de la orden desde el contexto
+  const total = context.total;
   return (
     <div>
       <Table striped>
@@ -23,29 +16,31 @@ function OrderTable({ content }) {
             <th>Producto</th>
             <th>Precio</th>
             <th className="text-center">Cantidad</th>
-            <th>Subtotal</th>
             <th></th>
           </tr>
         </thead>
         <tbody>
-          {content.map((cartProduct) => (
-            <tr>
+          {/* Se construye el contenido de la tabla a partir del contenido del carrito */}
+          {content.map((cartProduct, index) => (
+            <tr key={index}>
               <td>{cartProduct.name}</td>
-              <td>{cartProduct.price}</td>
+              <td>${cartProduct.price}</td>
               <td>
-                <Counter />
+                <Counter
+                  quantity={cartProduct.quantity}
+                  updateQuantity={context.updateQuantity}
+                  indexProduct={index}
+                />
               </td>
-              <td></td>
               <td>
-                <HiTrash />
+                <HiTrash onClick={()=>context.deleteItem(cartProduct.name)}/>
               </td>
             </tr>
           ))}
           <tr className="total">
             <th>Total</th>
             <th></th>
-            <th></th>
-            <th></th>
+            <th>${total}</th>
             <th></th>
           </tr>
         </tbody>
