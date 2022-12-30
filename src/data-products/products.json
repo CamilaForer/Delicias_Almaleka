@@ -2,29 +2,33 @@
   "products":[
     {
       "id":"Cup1",
-      "name":"Cupcake base chocolate",
+      "name":"Cupcake chocolate",
       "img":"/img/CupcakeChocolate.webp",
       "price":5000,
+      "description":"Cupcake sabor a chocolate",
       "type":"Cupcake"
     },
     {
       "id":"Cup2",
-      "name":"Cupcake base vainilla",
+      "name":"Cupcake vainilla",
       "img":"/img/CupcakesVainilla.webp",
+      "description":"Cupcake sabor a vainilla",
       "price":5000,
       "type":"Cupcake"
     },
     {
       "id":"Cup3",
-      "name":"Cupcake base choco vainilla",
+      "name":"Cupcake choco vainilla",
       "img":"/img/CupcakeChocovainilla.webp",
+      "description":"Cupcake sabor a choco vainilla",
       "price":5000,
       "type":"Cupcake"
     },
     {
       "id":"Cup4",
-      "name":"Cupcake base arequipe",
+      "name":"Cupcake arequipe",
       "img":"/img/CupcakeArequipe.webp",
+      "description":"Cupcake sabor a arequipe",
       "price":5000,
       "type":"Cupcake"
     },
@@ -32,6 +36,7 @@
       "id":"C1",
       "name":"Cheesecake individual",
       "img":"/img/CheesecakeIndividual.webp",
+      "description":"Porción de cheesecake personal",
       "price":5500,
       "type":"Cheesecake"
     },
@@ -39,6 +44,7 @@
       "id":"C2",
       "name":"Cheesecake para compartir",
       "img":"/img/Cheesecake.webp",
+      "description":"Cheesecake tamaño familiar ",
       "price":45000,
       "type":"Cheesecake"
     },
@@ -46,6 +52,7 @@
       "id":"H1",
       "name":"Pasabocas x 12 unidades",
       "img":"/img/Pasabocas.webp",
+      "description":"Caja de pasabocas con 12 unidades",
       "price":6500,
       "type":"Hojaldres"
     },
@@ -53,6 +60,7 @@
       "id":"H2",
       "name":"Pasabocas x 24 unidades",
       "img":"/img/Pasabocas.webp",
+      "description":"Caja de pasabocas con 24 unidades",
       "price":12000,
       "type":"Hojaldres"
     }, 
@@ -60,6 +68,7 @@
       "id":"T1",
       "name":"Torta de zanahoria",
       "img":"/img/TortaZanahoria.webp",
+      "description":"Torta a base de zanahoria",
       "price":15000,
       "type":"Tortas"
     },
@@ -67,6 +76,7 @@
       "id":"T2",
       "name":"Torta de banano",
       "img":"/img/TortaBanano.webp",
+      "description":"Torta a base de banano",
       "price":15000,
       "type":"Tortas"
     }, 
@@ -74,6 +84,7 @@
       "id":"P1",
       "name":"Postre tres leches individual",
       "img":"/img/TresLeches.webp",
+      "description":"Postre personal de tres leches",
       "price":5000,
       "type":"Postres"
     },
@@ -81,6 +92,7 @@
       "id":"P2",
       "name":"Postre tres leches para compartir",
       "img":"/img/TresLeches.webp",
+      "description":"Postre tamaño familiar de tres leches",
       "price":38000,
       "type":"Postres"
     },
@@ -88,6 +100,7 @@
       "id":"P3",
       "name":"Gelatina mosaico",
       "img":"/img/GelatinaMosaico.webp",
+      "description":"Gelatina de sabores en formas de cuadrados",
       "price":5000,
       "type":"Postres"
     },
@@ -95,6 +108,7 @@
       "id":"P4",
       "name":"Merengon",
       "img":"/img/Merengon.webp",
+      "description":"Merengón personal",
       "price":6500,
       "type":"Postres"
     }, 
@@ -102,6 +116,7 @@
       "id":"P5",
       "name":"Arroz con leche",
       "img":"/img/ArrozConLeche.webp",
+      "description":"Vaso de arroz con leche",
       "price":5000,
       "type":"Postres"
     },
@@ -109,6 +124,7 @@
       "id":"P6",
       "name":"Tiramisu",
       "img":"/img/Tiramisu.webp",
+      "description":"Postre personal de tiramisu",
       "price":6500,
       "type":"Postres"
     }, 
@@ -116,6 +132,7 @@
       "id":"P7",
       "name":"Natilla tradicional",
       "img":"/img/Natilla.webp",
+      "description":"Porción de natilla sabor tradicional",
       "price":5000,
       "type":"Postres"
     }

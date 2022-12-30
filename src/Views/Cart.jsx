@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Components/Header/Header'
 import { useCart } from "../Components/context/CartContext.jsx";
 import OrderTable from '../Components/Cart/OrderTable';
+import WhatsappButton from '../Components/Cart/WhatsappButton';
 
 export default function Cart() {
   const context = useCart();
@@ -12,7 +13,7 @@ export default function Cart() {
       <p className='page_tittle'>Carrito de compras</p> 
       <div className="container-fluid">
         <OrderTable content={cartContent} />
-        
+        <WhatsappButton/>
       </div>
     </div>
   )

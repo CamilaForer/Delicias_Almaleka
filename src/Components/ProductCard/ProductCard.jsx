@@ -2,11 +2,11 @@ import "./ProductCard.scss";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-export default function ProductCard({ name, img, price, addProduct }) {
+export default function ProductCard({ name, img, price,description, addProduct }) {
   const handleClick = () => {
     addProduct({
       "name":name,
-      "price":price  
+      "price":price 
     })
   }
   return (
@@ -14,6 +14,7 @@ export default function ProductCard({ name, img, price, addProduct }) {
       <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
+        <Card.Text>{description}</Card.Text>
         <Card.Text>${price}</Card.Text>
         <Button variant="primary" onClick={handleClick}>Agregar al carrito</Button>
       </Card.Body>

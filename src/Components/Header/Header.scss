@@ -44,6 +44,7 @@
 }
 ul {
   list-style: none;
+  width: 80%;
 }
 a {
   color: white;
@@ -51,7 +52,7 @@ a {
   font-family: "Lexend", sans-serif;
 }
 .modal {
-  --bs-modal-bg: rgba(122, 70, , 78, 70);
+  --bs-modal-bg: rgba(122, 70, 78, 70%);
 }
 /* cart-badge*/
 .badge-cart[data-count]:after {

@@ -22,6 +22,7 @@ function CategoryProduct() {
                 key={index}
                 name={product.name}
                 img={product.img}
+                description={product.description}
                 price={product.price}
                 addProduct={context.addProduct}
               />
