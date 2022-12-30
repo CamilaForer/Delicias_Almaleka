@@ -26,7 +26,7 @@ function Contact() {
           placeholder="¡Deja tu mensaje aquí!"
           style={{ height: "120px", width: "100%", marginBottom:"2%" }}
         />
-      <Button variant="primary" onClick={sendMessage}> Enviar <BsWhatsapp/></Button>
+      <Button variant="primary" onClick={sendMessage}> Enviar <BsWhatsapp style={{ color: "white"}}/></Button>
       </div>
     </div>
   );

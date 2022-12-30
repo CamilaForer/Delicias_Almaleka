@@ -7,13 +7,14 @@ import WhatsappButton from '../Components/Cart/WhatsappButton';
 export default function Cart() {
   const context = useCart();
   const cartContent = context.cart
+  const total = context.total
   return (
     <div>
       <Header/>
       <p className='page_tittle'>Carrito de compras</p> 
       <div className="container-fluid">
         <OrderTable content={cartContent} />
-        <WhatsappButton/>
+        <WhatsappButton content={cartContent} total={total}/>
       </div>
     </div>
   )
