@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import ProductCard from "../Components/ProductCard/ProductCard";
 import Header from '../Components/Header/Header'
 import { useCart } from "../Components/context/CartContext.jsx";
+import Footer from "../Components/Footer/Footer";
 
 const products = productsJson.products;
 function CategoryProduct() {
@@ -30,6 +31,7 @@ function CategoryProduct() {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

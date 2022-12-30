@@ -3,6 +3,7 @@ import Header from '../Components/Header/Header'
 import { useCart } from "../Components/context/CartContext.jsx";
 import OrderTable from '../Components/Cart/OrderTable';
 import WhatsappButton from '../Components/Cart/WhatsappButton';
+import Footer from '../Components/Footer/Footer';
 
 export default function Cart() {
   const context = useCart();
@@ -16,6 +17,7 @@ export default function Cart() {
         <OrderTable content={cartContent} />
         <WhatsappButton content={cartContent} total={total}/>
       </div>
+      <Footer/>
     </div>
   )
 }

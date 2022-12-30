@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 import CategoryCard from "../Components/ProductCard/CategoryCard";
 import categoriesJson from "../data-products/categories.json";
@@ -19,6 +20,7 @@ export default function Products() {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

@@ -3,6 +3,7 @@ import Header from "../Components/Header/Header.jsx";
 import ProductCard from "../Components/ProductCard/ProductCard.jsx";
 import productsJson from "../data-products/products.json";
 import { useCart } from "../Components/context/CartContext.jsx";
+import Footer from "../Components/Footer/Footer.jsx";
 
 const products = productsJson.products;
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

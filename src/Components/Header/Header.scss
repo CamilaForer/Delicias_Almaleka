@@ -68,8 +68,15 @@ a {
 }
 
 /*Footer*/
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.App-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0a0ac;
+  min-height: 12vh;
+  padding: 0 20px;
+  color: white;
+}
+.text-footer{
+  margin: 0;
 }
