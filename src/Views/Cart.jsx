@@ -12,10 +12,12 @@ export default function Cart() {
   return (
     <div>
       <Header/>
-      <p className='page_tittle'>Carrito de compras</p> 
-      <div className="container-fluid">
-        <OrderTable content={cartContent} />
-        <WhatsappButton content={cartContent} total={total}/>
+      <div className="container">
+        <p className='page_tittle'>Carrito de compras</p> 
+        <div className="container-fluid">
+          <OrderTable content={cartContent} />
+          <WhatsappButton content={cartContent} total={total}/>
+        </div>
       </div>
       <Footer/>
     </div>
