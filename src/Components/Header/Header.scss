@@ -3,55 +3,71 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #F0A0AC;
+  background-color: #f0a0ac;
   min-height: 12vh;
   padding: 0 20px;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
-.icons{
+.icons {
   font-size: 40px;
   color: white;
 }
-.logo{
+.logo {
   display: flex;
   width: 120px;
   align-self: center;
 }
 /*Menu*/
-.menu{
-  --bs-btn-bg:#F0A0AC;
-  --bs-btn-border-color:#F0A0AC ;
+.menu {
+  --bs-btn-bg: #f0a0ac;
+  --bs-btn-border-color: #f0a0ac;
   --bs-btn-hover-bg: #ec7f8f;
-  --bs-btn-hover-border-color: #8D3045;
-  --bs-btn-active-bg: #8D3045;
+  --bs-btn-hover-border-color: #8d3045;
+  --bs-btn-active-bg: #8d3045;
 }
-.modal-header .btn-close{
+.modal-header .btn-close {
   color: white;
 }
-.modal-header{
-  background: #F0A0AC;
+.modal-header {
+  background: #f0a0ac;
 }
 .modal-fullscreen .modal-body {
   overflow-y: auto;
-  background: #F0A0AC;
+  background: #f0a0ac;
   color: white;
   display: flex;
   justify-content: center;
   flex: none;
 }
-ul{
+ul {
   list-style: none;
 }
-a{
-  color:white;
+a {
+  color: white;
   text-decoration: none;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
-.modal{
-  --bs-modal-bg: rgba(122,70,,78, 70);
+.modal {
+  --bs-modal-bg: rgba(122, 70, , 78, 70);
 }
+/* cart-badge*/
+.badge-cart[data-count]:after {
+  position: relative;
+  content: attr(data-count);
+  font-size: 50%;
+  padding: .6em;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  min-width: 2em;
+  background: #8d3045;
+}
+
 /*Footer*/
-footer{
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
