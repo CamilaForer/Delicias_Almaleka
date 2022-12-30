@@ -5,7 +5,7 @@ import OrderTable from '../Components/Cart/OrderTable';
 
 export default function Cart() {
   const context = useCart();
-  const cartContent = context.getCart()
+  const cartContent = context.cart
   return (
     <div>
       <Header/>

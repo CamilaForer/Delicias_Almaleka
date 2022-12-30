@@ -7,7 +7,6 @@ import { useCart } from "../Components/context/CartContext.jsx";
 const products = productsJson.products;
 export default function Home() {
   const context = useCart();
-  console.log(context.getCart());
   return (
     <>
       <Header />

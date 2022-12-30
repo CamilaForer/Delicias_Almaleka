@@ -7,11 +7,8 @@ import { useCart } from "../Components/context/CartContext.jsx";
 const products = productsJson.products;
 function CategoryProduct() {
   const context = useCart();
-  console.log(context.getCart());
   const { category } = useParams();
-  console.log(category)
   const nameCategory = products.filter(product => product.type == category)
-  console.log(nameCategory)
   return (
     <div>
       <Header/>
