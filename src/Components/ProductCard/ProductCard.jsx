@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 export default function ProductCard({ name, img, price,description, addProduct }) {
+  //Con esta función tomamos el nombre y el precio para enviarlo al carrito 
   const handleClick = () => {
     addProduct({
       "name":name,
